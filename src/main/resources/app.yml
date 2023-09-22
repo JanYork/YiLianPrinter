@@ -1,0 +1,15 @@
+server.port: 9001
+
+solon.app:
+  name: 'YiLianYun-Print-Server'
+  group: 'com.yilianyun.print'
+
+yilian:
+  printer:
+    # 模式：国内(cn)、国外(com)
+    mode: 'com'
+    api:
+      # 国内
+      cn.url: 'https://open-api.10ss.net/v2'
+      # 国外
+      com.url: 'https://open-api-os.10ss.net/v2'
